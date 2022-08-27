@@ -1,5 +1,5 @@
 # Stopwatch
-A beginner vanilla javascript project building a stopwatch clock. 
+A beginner vanilla JavaScript project building a stopwatch clock. 
 
 ### Tech Stack
 1. HTML5
