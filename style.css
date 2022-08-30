@@ -1,0 +1,46 @@
+body {
+	background-color: #FF9D01;
+	color: #FFFFFF;
+	text-align:  center;
+	font-size: 48px;
+}
+
+
+
+.clock {
+
+}
+
+.clock__timer {
+	font-size:  100px;
+}
+
+.clock__button {
+	background-color:  #FF9D01;
+	color: #FFFFFF;
+	font-size:  32px;
+	padding: 8px 16px;
+	border: 2px solid #FFFFFF;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	border-radius: 8px;
+	transition-duration: 0.2;
+
+}
+
+.clock__button:hover {
+	background-color: #FFFFFF;
+	color: #FF9D01;
+}
+
+.clock__button--disabled {
+	opacity:  0.6;
+	cursor: not-allowed;
+}
+
+.clock__button--disabled:hover {
+	background-color: #FF9D01;
+	color: #FFFFFF;
+}
