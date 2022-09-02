@@ -3,15 +3,18 @@ body {
 	color: #FFFFFF;
 	text-align:  center;
 	font-size: 48px;
+	font-family:  Roboto, sans-serif;
 }
 
-
+h2 {
+	font-weight: lighter;
+}
 
 .clock {
 
 }
 
-.clock__timer {
+#clock__timer {
 	font-size:  100px;
 }
 

@@ -3,15 +3,17 @@
 <head>
 	<title>Stopwatch</title>
 	<link rel="stylesheet" href="style.css"/>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"/>
+	<script src="script.js"></script>
 </head>
 <body>
 	<div class="clock">
-		<p>STOPWATCH</p>
-		<p>LET'S GET GOING!</p>
-		<div class="clock__timer">00:00</div>
-		<button class="clock__button clock__button--active" onclick="startWatch()" type="button">START</button>
-		<button class="clock__button clock__button--disabled" onclick="stopWatch()" type="button">STOP</button>
-		<button class="clock__button clock__button--disabled" onclick="resetWatch()" type="button">RESET</button>
+		<h1>STOPWATCH</h1>
+		<h2>LET'S GET GOING!</h2>
+		<div id="clock__timer"></div>
+		<button type="button" class="clock__button clock__button--active" onClick="startWatch()">START</button>
+		<button class="clock__button clock__button--disabled" onClick="stopWatch()" type="button">STOP</button>
+		<button class="clock__button clock__button--disabled" onClick="resetWatch()" type="button">RESET</button>
 	</div>
 </body>
 </html>
